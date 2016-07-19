@@ -16,7 +16,7 @@
             <!--</intent-filter>-->
         </activity>
         <!--观察者模式-->
-        <activity android:name=".observerpattern.ObserverTest">
+        <activity android:name=".observerpattern.ObserverTestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

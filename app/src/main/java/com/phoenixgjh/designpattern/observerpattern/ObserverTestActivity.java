@@ -12,7 +12,7 @@ import java.util.Date;
 /**
  * Created by Phoenix on 2016/7/18.
  */
-public class ObserverTest extends Activity {
+public class ObserverTestActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

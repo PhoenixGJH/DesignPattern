@@ -33,7 +33,7 @@ public class DefAlertDialog extends AlertDialog implements View.OnClickListener 
 
     public DefAlertDialog(Context context, CharSequence mContent, CharSequence mTitle) {
         super(context);
-        this.mContext = mContext;
+        this.mContext = context;
         this.mContent = mContent;
         this.mTitle = mTitle;
     }

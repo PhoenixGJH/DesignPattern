@@ -1,8 +1,9 @@
-package com.phoenixgjh.designpattern;
+package com.phoenixgjh.designpattern.strategy;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.phoenixgjh.designpattern.R;
 import com.phoenixgjh.designpattern.strategy.WriteNovel;
 
 public class MainActivity extends AppCompatActivity {

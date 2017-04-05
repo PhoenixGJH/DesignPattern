@@ -1,6 +1,7 @@
 package com.phoenixgjh.designpattern.observerpattern;
 
 /**
+ * 抽象被观察者角色，被观察者
  * Created by Phoenix on 2016/7/18.
  */
 public interface Subject<T> {
@@ -36,5 +37,5 @@ public interface Subject<T> {
      * @param observer
      * @param t
      */
-    void nofityObserver(Observer observer, T t);
+    void notifyObserver(Observer observer, T t);
 }

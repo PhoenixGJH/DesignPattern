@@ -38,7 +38,7 @@ public class ConcreteSubject implements Subject<String> {
     }
 
     @Override
-    public void nofityObserver(Observer observer, String s) {
+    public void notifyObserver(Observer observer, String s) {
         if (observer != null) {
             observer.update(this, s);
         }

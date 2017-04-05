@@ -1,7 +1,7 @@
 package com.phoenixgjh.designpattern.observerpattern;
 
 /**
- * 观察者接口
+ * 抽象观察者角色,观察者接口
  * Created by Phoenix on 2016/7/18.
  */
 public interface Observer<T> {

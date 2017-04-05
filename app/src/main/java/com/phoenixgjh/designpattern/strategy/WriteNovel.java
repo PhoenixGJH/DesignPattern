@@ -8,17 +8,7 @@ public class WriteNovel {
     private String mString;
 
     public WriteNovel(String string) {
-        switch (string) {
-            case "AA":
-                mSynopsis = new StoryA(string);
-                break;
-            case "BB":
-                mSynopsis = new StoryB(string);
-                break;
-            default:
-                mSynopsis = new StoryA(string);
-                break;
-        }
+        mSynopsis = new StoryA(string);
     }
 
     public void getDetail() {
